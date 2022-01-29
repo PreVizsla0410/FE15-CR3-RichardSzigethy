@@ -1,76 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
-    }
-    h1 {
-        margin: .5vw;
-        font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
-        }
-    .btn {
-        height: 35px;
-        padding: 1px;
-        font-size: 14px;
-    }
-    .nav {
-        width: 100%;
-    }
-    .nav>li {
-        display: inline;
-        background-color: white !important;
-    } /* Dies belassen wir daweil so, um eventuell responsiv zu bleiben */
-    main {
-        color: #090;
-        text-align: center;
-        width: auto;
-        height: 500px;
-        background-image: url("https://wallpaperaccess.com/full/1569651.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #icons {
-        padding: 60px;
-    }
-    .btn-booknow {
-        margin-left: 30px;
-    }
-li {
-    list-style: none;
-    display: inline-block;
-    line-height: 2vw;
-    padding: 10px;
+margin: 0;
+padding: 0;
 }
+h1 {
+margin: .5vw;
+font-size: 25px;
+font-family: 'Montserrat', sans-serif;
+}
+.btn {
+height: 45px;
+padding: 1px;
+font-size: 14px;
+}
+#herobtn {
+padding: 2vw;
+}
+.nav {
+width: 100%;
+}
+.nav>li {
+display: inline;
+background-color: white !important;
+} /* Dies belassen wir daweil so, um eventuell responsiv zu bleiben */
+main {
+color: #090;
+text-align: center;
+width: auto;
+height: 500px;
+background-image: url("https://wallpaperaccess.com/full/1569651.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#icons {
+padding: 60px;
+}
+.btn-booknow {
+margin-left: 30px;
+}
+li {
+list-style: none;
+display: inline-block;
+line-height: 2vw;
+padding: 10px;
+}
+img {
+width: 100%; 
+height: 400px;
+object-fit: cover;
+margin: 10px;
+padding: 12px;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+background-color: #f1f1f1;
+float: right;
+width: 70%;
+padding: 10px;
+}
+aside {
+padding: 15% 8% 22% 5%;
+float:left;
+}
+.btn-loadmore  {
+width: auto;
+margin: 30px 0;
+}
+.buttonlm {
+text-align: center;
+}
+#qs {
+width: 100%; 
+height: 250px;
+object-fit: cover;
+margin: 10px;
+}
+#singerdiv {
+height: 250px;
+display: none;
+}
+h4 {
+padding: 10px 0 5px 0;
+}
+
+@media screen and (min-width: 480px) {
+    #singerdiv {
+        display: inline;
+    }
+    }
+
+@media screen and (min-width: 768px) {
+#singerdiv {
+    display: inline;
+}
+aside { 
+    padding: 30% 5% 10% 2%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#singerdiv {
+    display: inline;
+}
+img {
+    width: 60%; 
+    height: 200px;
+    margin: 10px;
+    padding: 12px;
+    }
+}
+  
+@media screen and (min-width: 1440px) {
+#singerdiv {
+display: inline;
+}
+aside { 
+    padding: 20% 10% 2% 4%;
+    }
 img {
     width: 100%; 
     height: 200px;
-    object-fit: cover;
     margin: 10px;
+    padding: 12px;
+    }
 }
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    background-color: #f1f1f1;
-    float: right;
-    width: 70%;
-    padding: 0 10px;
-  }
-  aside {
-  padding: 15% 8% 22% 5%;
-  float:left;
-  }
-  .btn-loadmore  {
-      width: auto;
-      margin: 30px 0;
-  }
-  .buttonlm {
-  text-align: center;
-  }
-  #qs {
-    width: 100%; 
-    height: 250px;
-    object-fit: cover;
-    margin: 10px;
-  }
-  #singerdiv {
-      height: 250px;
-  }
